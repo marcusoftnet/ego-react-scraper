@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marcusoftnet/ego-react-scraper/precache-manifest.0457466c2429bbdd5937d21a197fd9a1.js"
+  "/ego-react-scraper/precache-manifest.9739dba7e39115f27689a29a676e876b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/marcusoftnet/ego-react-scraper/index.html", {
+workbox.routing.registerNavigationRoute("/ego-react-scraper/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
