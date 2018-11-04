@@ -26,6 +26,7 @@ class ReviewList extends Component {
       <div className='ReviewList'>
         { this.state.reviews.map((r, index) =>
           <Review
+            key={index}
             apiUrl={this.state.apiUrl}
             reviewKey={r}
           />
